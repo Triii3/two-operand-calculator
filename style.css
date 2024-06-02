@@ -1,0 +1,85 @@
+body {
+  margin: 0;
+  padding: 0;
+  /*  To reset any default margins and paddings */
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(0, 0%, 30%);
+}
+
+h1 {
+  font-style: Arial;
+  color: hsl(0, 0%, 80%);
+}
+
+#calculator {
+  max-width: 500px;
+  border-radius: 15px;
+  background-color: hsl(0, 0%, 90%);
+  overflow: hidden; /*  hides overflow of the display div*/
+}
+
+#display {
+  width: 100%;
+  height: 100px;
+  padding: 20px;
+  border: none;
+  background-color: hsl(0, 0%, 90%);
+  text-align: left;
+  font-size: 4rem;
+  font-weight: 600;
+}
+
+#keys {
+  display: grid;
+  grid-template-columns: auto auto auto auto; /*  set number of columns to 4  */
+  row-gap: 20px;
+  padding: 20px;
+}
+
+button {
+  height: 100px;
+  width: 100px;
+  border: none;
+  border-radius: 100%;
+  background-color: hsl(0, 0%, 95%);
+  font-size: 2.1rem;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: hsl(0, 0%, 93%);
+}
+
+button:active {
+  background-color: hsl(0, 0%, 88%);
+}
+
+.operator-btn {
+  background-color: hsl(0, 0%, 85%);
+}
+
+.operator-btn:hover {
+  background-color: hsl(0, 0%, 83%);
+}
+
+.operator-btn:active {
+  background-color: hsl(0, 0%, 78%);
+}
+
+#calculate-btn {
+  color: white;
+  background-color: hsl(23, 94%, 50%);
+}
+
+#calculate-btn:hover {
+  background-color: hsl(23, 94%, 48%);
+}
+
+#calculate-btn:active {
+  background-color: hsl(23, 94%, 45%);
+}
