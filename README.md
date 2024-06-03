@@ -112,6 +112,7 @@ When looping a string in javascript and you try to access it as character, it on
 ### Continued development
 
 - As of now, the calculator can only accept two operands. I would like to continue developing the web app wherein it can accept more than two operands.
+- Does not recognize negative values.
 - The percent (%) which converts the number into 0.01 of its value can only perform it on the first operand. I would like to improve on this delimitation where it can also convert other operands.
 - The display can only contain a few characters before overflowing. I would like to continue developing this element so that it will scroll sideways and not hide the overflow.
 
